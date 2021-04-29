@@ -84,10 +84,22 @@
 
 .intro p {
     line-height: 1.7;
-    color: #39a6b2;
+    color: #203152;
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
   }
   /* ABOUT ME STYLES END */
+
+/* WORK STYLE START */
+
+.intro p {
+    line-height: 1.7;
+    color: #203152;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+  }
+  /* WORK STYLES END */
