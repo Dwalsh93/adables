@@ -24,12 +24,13 @@
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: #7cc8ce;
+    color: #263133;
+    background: #7cc8ce;
   }
   
   header a {
     text-decoration: none;
-    color: #7cc8ce;
+    color: #6fb0b4;
   }
   
   header nav {
@@ -60,22 +61,17 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: 300px;
+    position:relative;
+
   }
   
-  .hero-cta {
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.3;
-  }
-  
-  .hero-cta h2 {
-    font-style: italic;
-    font-size: 55px;
-    color: #68e6e6;
-    
+.hero p {
+    background:aqua;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+
   }
   
   /* HERO STYLES END */
