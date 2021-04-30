@@ -30,7 +30,7 @@
   
   header a {
     text-decoration: none;
-    color: #6fb0b4;
+    color: #72c5cc;
   }
   
   header nav {
@@ -62,7 +62,8 @@
     justify-content: center;
     flex-wrap: wrap;
     height: 300px;
-    position:relative;
+    position: relative;
+    font-size: 40px;
 
   }
   
