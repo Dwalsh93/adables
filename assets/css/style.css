@@ -7,6 +7,7 @@
   body {
     color: #23393b;
     font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
   }
   
   
@@ -77,30 +78,72 @@
   
   /* HERO STYLES END */
 
-  /* ABOUT ME STYLE START */
+  /* MAIN CONTENT START */
 
 .main-container {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-
+    background-color: rgb(224, 224, 224);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
 }
 .section-title {
 display: flex;
 flex-wrap: wrap;
 justify-content: end;
 width: 25%;
-border-right: 3px solid black;
-font-family: Arial, Helvetica, sans-serif;
-  }
+border-right: 3px solid rgb(34, 42, 68);
+}
 
 .section-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 70%;
+} 
+
+.fade-in-image {
+  opacity: 100%;
+} 
+
+.fade-in-image:hover {
+  opacity:50%;
+  transition:opacity 1s
 }
 
-  /* ABOUT ME STYLES END */
 
+
+/* Container holding the image and the text */
+.section.content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  bottom: 8px;
+  left: 16px;
+  max-height: 200px;
+  max-width: 300px;
+  min-height: 200px;
+  min-width: 300px;
+  background-image: url("../images/walk-the-moon1.jpg");
+  background-size: 350px;
+  background-repeat: no-repeat;
+  border: 5px solid #7cc8ce;
+  flex-wrap: wrap;
+}
+
+.bottom-left p {
+  margin-top: 132px;
+  margin-right: 178px;
+  background-color: #72c5cc;
+  padding: 10px 15px 10px 15px;
+
+}
+  /* MAIN CONTENT END /*
