@@ -68,7 +68,7 @@
   }
   
 .hero p {
-    background:aqua;
+    background:#7cc8ce;
     position:absolute;
     bottom: 0;
     right: 0;
@@ -92,6 +92,7 @@ flex-wrap: wrap;
 justify-content: end;
 width: 25%;
 border-right: 3px solid black;
+font-family: Arial, Helvetica, sans-serif;
   }
 
 .section-content {
