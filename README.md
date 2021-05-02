@@ -4,5 +4,5 @@ With this project my main goal was to have it look as close to the mock-up as po
 
 Screenshot:
 ![ScreenShot of Current Active Webpage 1](/assets/images/screenshot4.png "portfolio")
-![ScreenShot of Current Active Webpage 2](/assets/images/screenshot5.png "portolio")
-Live URL: 
+![ScreenShot of Current Active Webpage 2](C:\Users\dillo\Desktop\Coding BootCamp\projects\portfolio\adables\assets\images\Screenshot5.png "portolio")
+Live URL: https://dwalsh93.github.io/adables/
