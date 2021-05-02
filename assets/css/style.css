@@ -90,6 +90,7 @@
     padding-right: 30px;
     padding-bottom: 50px;
     padding-left: 80px;
+    
 }
 .section-title {
 display: flex;
@@ -120,7 +121,7 @@ border-right: 3px solid rgb(34, 42, 68);
 /* Container holding the image and the text */
 .section.content {
   position: relative;
-  text-align: center;
+  text-align: justify;
   color: white;
 }
 
@@ -140,8 +141,8 @@ border-right: 3px solid rgb(34, 42, 68);
 }
 
 .bottom-left p {
-  margin-top: 132px;
-  margin-right: 178px;
+  margin-top: 107px;
+  margin-right: 187px;
   background-color: #72c5cc;
   padding: 10px 15px 10px 15px;
 
