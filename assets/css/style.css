@@ -105,6 +105,7 @@ border-right: 3px solid rgb(34, 42, 68);
     flex-wrap: wrap;
     justify-content: space-around;
     width: 70%;
+    text-size-adjust: auto;
 } 
 
 .fade-in-image {
@@ -119,11 +120,13 @@ border-right: 3px solid rgb(34, 42, 68);
 
 
 /* Container holding the image and the text */
-.section.content {
+.section-content {
   position: relative;
+  color: rgb(38, 37, 61);
   text-align: left;
-  color: white;
+  
 }
+
 
 a:link {
   color: #7cc8ce;
@@ -147,6 +150,7 @@ a:link {
   background-repeat: no-repeat;
   border: 5px solid #7cc8ce;
   flex-wrap: wrap;
+  flex-shrink: 4;
 }
 
 .bottom-left p {
@@ -157,3 +161,18 @@ a:link {
 
 }
   /* MAIN CONTENT END /*
+
+  /* Footer Style Begin */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(224, 224, 224);
+}
+
+footer h2 {
+  font-size: 20px;
+}
+
+/* Footer Style End */
