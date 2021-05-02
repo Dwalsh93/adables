@@ -121,8 +121,16 @@ border-right: 3px solid rgb(34, 42, 68);
 /* Container holding the image and the text */
 .section.content {
   position: relative;
-  text-align: justify;
+  text-align: left;
   color: white;
+}
+
+a:link {
+  color: #7cc8ce;
+}
+
+.links {
+  word-spacing: 50px;
 }
 
 /* Bottom left text */
