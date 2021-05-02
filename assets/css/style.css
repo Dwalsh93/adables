@@ -127,6 +127,7 @@ border-right: 3px solid rgb(34, 42, 68);
 
 a:link {
   color: #7cc8ce;
+  font-size: 30px;
 }
 
 .links {
@@ -137,8 +138,8 @@ a:link {
 .bottom-left {
   bottom: 8px;
   left: 16px;
-  max-height: 200px;
-  max-width: 300px;
+  max-height: 300px;
+  max-width: 500px;
   min-height: 200px;
   min-width: 300px;
   background-image: url("../images/walk-the-moon1.jpg");
