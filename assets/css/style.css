@@ -55,7 +55,8 @@
   /* HEADER / NAVBAR STYLES END */
   
   /* HERO STYLES START */
-.hero {
+
+/* .hero {
     background-image: url('/assets/images/jumbotron.jpg');
     background-size: cover; 
     background-position: center;
@@ -66,7 +67,7 @@
     position: relative;
     font-size: 40px;
 
-  }
+  } */
   
 .hero p {
     background:#7cc8ce;
@@ -87,16 +88,16 @@
     width: 100%;
     background-color: rgb(224, 224, 224);
     padding-top: 50px;
-    padding-right: 30px;
+    padding-right: 100px;
     padding-bottom: 50px;
     padding-left: 80px;
     
 }
 
 .selfie {
-background-image: url("../images/selfie.jpg");
 float:left;
 height: 200px;
+padding-right: 30px;
 }
 
 .section-title {
@@ -145,19 +146,24 @@ a:link {
 }
 
 /* Bottom left text */
-.bottom-left {
+.first {
   bottom: 8px;
   left: 16px;
   max-height: 300px;
   max-width: 500px;
   min-height: 200px;
   min-width: 300px;
-  background-image: url("../images/walk-the-moon1.jpg");
+  background-image: url("/assets/images/horiseon.png");
   background-size: 350px;
   background-repeat: no-repeat;
   border: 5px solid #7cc8ce;
   flex-wrap: wrap;
   flex-shrink: 4;
+}
+
+.first img {
+  height: 300px;
+  width: 300px;
 }
 
 .bottom-left p {
@@ -175,7 +181,11 @@ footer {
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  background-color: rgb(224, 224, 224);
+  background-color: #323333;
+  color: #72c5cc;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
 }
 
 footer h2 {
