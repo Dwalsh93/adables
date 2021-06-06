@@ -56,8 +56,8 @@
   
   /* HERO STYLES START */
 .hero {
-    background-image: url('https://t4.ftcdn.net/jpg/03/22/59/05/240_F_322590546_DDctmdvY80QMR7Df4pES08BZuLCCLXrP.jpg');
-    background-size: cover;
+    background-image: url('/assets/images/jumbotron.jpg');
+    background-size: cover; 
     background-position: center;
     display: flex;
     justify-content: center;
@@ -92,6 +92,13 @@
     padding-left: 80px;
     
 }
+
+.selfie {
+background-image: url("../images/selfie.jpg");
+float:left;
+height: 200px;
+}
+
 .section-title {
 display: flex;
 flex-wrap: wrap;
