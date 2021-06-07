@@ -56,23 +56,18 @@
   
   /* HERO STYLES START */
 
-/* .hero {
-    background-image: url('/assets/images/jumbotron.jpg');
-    background-size: cover; 
-    background-position: center;
+.hero {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    height: 300px;
-    position: relative;
     font-size: 40px;
-
-  } */
+    height: 300px;
+    background-image: url('https://th.bing.com/th/id/Rf85ceeaa8bbdaae32343ca24846f0ff7?rik=xj8xKPX%2bgYNBvQ&pid=ImgRaw');
+  }
   
 .hero p {
     background:#7cc8ce;
     position:absolute;
-    bottom: 0;
+    bottom: 587;
     right: 0;
 
   }
@@ -91,7 +86,6 @@
     padding-right: 100px;
     padding-bottom: 50px;
     padding-left: 80px;
-    
 }
 
 .selfie {
@@ -125,9 +119,21 @@ border-right: 3px solid rgb(34, 42, 68);
   transition:opacity 1s
 }
 
+.workimg {
+  height: 300px;
+  width: 500px;
+  /* margin-left: 400px;
+  margin-right: 300px; */
+  display: flex;
+  flex-direction: column;
+}
 
+.work {
+  padding-bottom: 100px;
+}
 
 /* Container holding the image and the text */
+
 .section-content {
   position: relative;
   color: rgb(38, 37, 61);
@@ -135,44 +141,22 @@ border-right: 3px solid rgb(34, 42, 68);
   
 }
 
-
 a:link {
   color: #7cc8ce;
   font-size: 30px;
+  padding-right: 30px;
 }
 
-.links {
-  word-spacing: 50px;
+.contact-me {
+  bottom: 100px;
 }
 
 /* Bottom left text */
-.first {
-  bottom: 8px;
-  left: 16px;
-  max-height: 300px;
-  max-width: 500px;
-  min-height: 200px;
-  min-width: 300px;
-  background-image: url("/assets/images/horiseon.png");
-  background-size: 350px;
-  background-repeat: no-repeat;
-  border: 5px solid #7cc8ce;
-  flex-wrap: wrap;
-  flex-shrink: 4;
-}
 
-.first img {
-  height: 300px;
-  width: 300px;
-}
 
-.bottom-left p {
-  margin-top: 107px;
-  margin-right: 187px;
-  background-color: #72c5cc;
-  padding: 10px 15px 10px 15px;
 
-}
+
+
   /* MAIN CONTENT END /*
 
   /* Footer Style Begin */
@@ -183,7 +167,6 @@ footer {
   text-align: center;
   background-color: #323333;
   color: #72c5cc;
-  position: fixed;
   width: 100%;
   bottom: 0px;
 }
