@@ -95,16 +95,16 @@ padding-right: 30px;
 }
 
 .section-title {
-display: flex;
-flex-wrap: wrap;
+/* display: flex;
+flex-wrap: wrap; */
 justify-content: end;
 width: 25%;
 border-right: 3px solid rgb(34, 42, 68);
 }
 
 .section-content {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     justify-content: space-around;
     width: 70%;
     text-size-adjust: auto;
@@ -122,10 +122,10 @@ border-right: 3px solid rgb(34, 42, 68);
 .workimg {
   height: 300px;
   width: 500px;
-  /* margin-left: 400px;
-  margin-right: 300px; */
-  display: flex;
-  flex-direction: column;
+}
+
+.projects {
+  margin-left: 300px;
 }
 
 .work {
@@ -153,13 +153,9 @@ a:link {
 
 /* Bottom left text */
 
+/* MAIN CONTENT END /*
 
-
-
-
-  /* MAIN CONTENT END /*
-
-  /* Footer Style Begin */
+/* Footer Style Begin */
 footer {
   padding: 30px;
   clear: both;
@@ -176,3 +172,8 @@ footer h2 {
 }
 
 /* Footer Style End */
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
